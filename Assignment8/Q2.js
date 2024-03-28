@@ -3,8 +3,7 @@ for (property in myObject) {
    console.log(property + ': ' + myObject.property);
 }
 
-//Error: In for in loop we cannot access the object property by .It can be accessed by the bracket notation
-
+//The variable property holds the name of each property during each iteration, but to access the corresponding value, use square brackets [] notation instead of dot notation 
 let myObject = { name: 'John', age: 30 };
 for (property in myObject) {
    console.log(property + ': ' + myObject[property]);
